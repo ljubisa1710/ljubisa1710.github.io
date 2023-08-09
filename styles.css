@@ -167,8 +167,8 @@ main {
     max-width: 30%;
     height: 500px;
     width: auto;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .cat-description-left, .cat-description-right {
