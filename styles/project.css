@@ -11,9 +11,11 @@
     object-fit: cover;
     padding-top: 50px;
     padding-right: 200px;
+    padding-left: 50px;
 }
 
 .project-description {
     flex: 1;
     padding-left: 200px;
+    max-width: 1150px;
 }
