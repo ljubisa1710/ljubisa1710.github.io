@@ -4,12 +4,36 @@
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* center content horizontally */
 }
 
+
 .about-image img {
-    width: 15%; 
-    border-radius: 50%;
-    display: block; 
-    margin: 0 auto;
-    margin-bottom: 20px;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto; /* This will center the image horizontally */
+    display: block; /* Ensure the image behaves as a block-level element */
 }
+
+.contact-section {
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+    margin-top: -25px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.contact-section p, 
+.contact-section a {
+    margin: 0; 
+    padding: 0;
+}
+
+.contact-section a {
+    display: inline-block;
+    margin-left: 5px;
+}
+
