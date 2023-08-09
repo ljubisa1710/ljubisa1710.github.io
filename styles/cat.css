@@ -1,0 +1,23 @@
+.cat-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.cat-img-left, .cat-img-right {
+    max-width: 30%;
+    height: 500px;
+    width: auto;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.cat-description-left, .cat-description-right {
+    width: 50%;
+    padding: 100px;
+}
+
+.cat-description-right {
+    text-align: right;
+}

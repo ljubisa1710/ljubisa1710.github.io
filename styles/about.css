@@ -1,0 +1,15 @@
+.about-section {
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.about-image img {
+    width: 15%; 
+    border-radius: 50%;
+    display: block; 
+    margin: 0 auto;
+    margin-bottom: 20px;
+}

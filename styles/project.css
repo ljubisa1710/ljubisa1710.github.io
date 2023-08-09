@@ -1,0 +1,19 @@
+.project-content {
+    display: flex;
+    align-items: start;
+    margin-bottom: 20px;
+}
+
+.project-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    object-fit: cover;
+    padding-top: 50px;
+    padding-right: 200px;
+}
+
+.project-description {
+    flex: 1;
+    padding-left: 200px;
+}

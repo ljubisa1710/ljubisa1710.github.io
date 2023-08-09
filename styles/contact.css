@@ -1,0 +1,19 @@
+.contact-section {
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+    margin-top: -50px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.contact-section p, 
+.contact-section a {
+    margin: 0; 
+    padding: 0;
+}
+
+.contact-section a {
+    display: inline-block;
+    margin-left: 5px;
+}
