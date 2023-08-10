@@ -6,19 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ivan's Projects</title>
 
-    <!-- Bootstrap CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
     <link rel="stylesheet" href="../styles/base.css">
     <link rel="stylesheet" href="../styles/layout.css">
     <link rel="stylesheet" href="../styles/navbar.css">
     <link rel="stylesheet" href="../styles/project.css">
-
-    <!-- Bootstrap and jQuery Scripts -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -64,47 +60,44 @@
         </div>
     </nav>
 
-    <div class="container"> <!-- Bootstrap's container -->
-        <section class="project row mt-4 mb-4">
-            <div class="project-description col-md-8">
+    <section class="project">
+        <div class="project-content">
+            <div class="project-description">
                 <h2>PacMan</h2>
                 <p>Dive into this modern rendition of the classic Pac-Man game, masterfully crafted using JavaScript and the p5.js library. Embedded within an HTML framework, it's playable on any web browser.</p>
                 <p>The game boasts a detailed 2D grid arena, with the iconic A* path-finding technique steering ghost movements. Delight in the familiar chomping sounds and chase mechanics that evoke nostalgia.</p>
                 <p>It's the quintessential Pac-Man experience, reimagined for the contemporary web, ensuring hours of fun and challenge.</p>
                 <a href="https://github.com/ljubisa1710/PacMan" target="_blank">See on GitHub</a>
             </div>
-            <div class="col-md-4">
-                <img src="../documents/pacman.jpg" alt="PacMan Game Preview" class="project-image img-fluid">
-            </div>
-        </section>
-    
-        <section class="project row mt-4 mb-4">
-            <div class="project-description col-md-8">
+            <img src="../documents/pacman.jpg" alt="PacMan Game Preview" class="project-image">
+        </div>
+    </section>
+
+    <section class="project">
+        <div class="project-content">
+            <div class="project-description">
                 <h2>Sudoku</h2>
                 <p>Immerse yourself in this captivating Sudoku game, meticulously crafted with JavaScript and the p5.js library. Engage with the traditional 9x9 Sudoku grid on an HTML canvas, with a diverse array of puzzles available at the click of a button.</p>
                 <p>Enhanced validation tools ensure you stay on track, and hints are available for those truly puzzling moments.</p>
                 <p>Whether challenging your intellect or seeking assistance with complex grids, this digital platform delivers an enthralling experience for puzzle enthusiasts.</p>            
                 <a href="https://github.com/ljubisa1710/Sudoku" target="_blank">See on GitHub</a>
             </div>
-            <div class="col-md-4">
-                <img src="../documents/sudoku.jpg" alt="Sudoku Preview" class="project-image img-fluid">
-            </div>
-        </section>
-    
-            <!-- Rock Paper Scissor Simulator project -->
-        <section class="project row mt-4 mb-4">
-            <div class="project-description col-md-8">
+            <img src="../documents/sudoku.jpg" alt="Sudoku Preview" class="project-image">
+        </div>
+    </section>
+
+    <section class="project">
+        <div class="project-content">
+            <div class="project-description">
                 <h2>Rock Paper Scissor Simulator</h2>
                 <p>Step into a dynamic simulation of the classic Rock-Paper-Scissors game, innovatively implemented using p5.js. Entities traverse the canvas, engaging and interacting based on the timeless game rules.</p>
                 <p>They consume, reproduce, and evolve based on user-configurable parameters, providing a unique twist on the traditional gameplay.</p>
                 <p>Enhanced with vibrant imagery and interactivity, this project offers a refreshing digital take on an age-old game, blending entertainment with a hint of educational value.</p>            
                 <a href="https://github.com/ljubisa1710/RockPaperScissorSim" target="_blank">See on GitHub</a>
             </div>
-            <div class="col-md-4">
-                <img src="../documents/rockpaperscissors.jpg" alt="RockPaperScissorSim Preview" class="project-image img-fluid">
-            </div>
-        </section>
-    </div>
+            <img src="../documents/rockpaperscissors.jpg" alt="RockPaperScissorSim Preview" class="project-image">
+        </div>
+    </section>
 
     <footer class="text-center py-4">
         <p>Copyright © 2023 Ivan Seslija</p>

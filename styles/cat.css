@@ -1,22 +1,37 @@
-.cat-section {
+.cat-section-content {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 0;
+    justify-content: center;  /* Horizontally center the children */
+    align-items: center;      /* Vertically center the children */
+    margin-bottom: 2%;
+    margin-top: 2%;
+    flex-wrap: wrap;
 }
 
-.cat-img-left, .cat-img-right {
-    height: 500px;
-    width: 750px;
-    padding-left: 150px;
-    padding-right: 150px;
+.cat-img {
+    flex: 1;
+    width: 20vw;
+    height: 50vh;
+    padding-left: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    object-fit: contain;
+    align-self: center;      /* Vertically center the image itself, if needed */
 }
 
-.cat-description-left, .cat-description-right {
-    width: 1000px;
-    padding: 100px;
+.cat-description {
+    font-size: x-large;
+    flex: 2;
+    width: 20vw;
+    padding-left: 5%;
+    padding-right: 5%;
+    align-self: center;      /* Vertically center the description itself, if needed */
 }
 
-.cat-description-right {
-    text-align: right;
+@media (max-width: 768px) {
+    .cat-description {
+        padding-left: 2%;
+    }
+    .cat-img, .cat-description {
+        max-width: 100%;
+    }
 }

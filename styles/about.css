@@ -1,29 +1,28 @@
 .about-section {
     text-align: center;
     width: 100%;
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
+    max-width: 80vw; /* Using vw to set a relative max-width */
+    margin: 2vh auto; /* Using vh for vertical spacing */
+    padding: 2vh; /* Using vh for padding to scale with the viewport height */
     display: flex;
     flex-direction: column;
-    align-items: center; /* center content horizontally */
+    align-items: center;
 }
 
-
 .about-image img {
-    width: 250px;
-    height: 250px;
-    margin: 0 auto; /* This will center the image horizontally */
-    display: block; /* Ensure the image behaves as a block-level element */
+    width: 30vw; /* Scaled based on the viewport width */
+    max-width: 250px; /* Retaining a max-width to prevent it from becoming too large */
+    max-height: 250px; /* Ensuring max-height is retained as well */
+    margin: 0 auto;
+    display: block;
 }
 
 .contact-section {
     text-align: center;
     width: 100%;
-    max-width: 800px;
-    margin-top: -25px;
-    margin-bottom: 20px;
-    padding: 20px;
+    max-width: 80vw; /* Using vw to set a relative max-width */
+    margin: -2vh auto 2vh; /* Using vh for vertical spacing */
+    padding: 2vh; /* Using vh for padding to scale with the viewport height */
 }
 
 .contact-section p, 
@@ -34,6 +33,5 @@
 
 .contact-section a {
     display: inline-block;
-    margin-left: 5px;
+    margin-left: 1vw; /* Using vw for horizontal spacing */
 }
-

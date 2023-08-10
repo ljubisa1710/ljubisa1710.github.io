@@ -1,29 +1,26 @@
 .project-content {
     display: flex;
-    justify-content: space-between;  
-    align-items: center;      
+    justify-content: center;  /* Horizontally center the children */
+    align-items: center;      /* Vertically center the children */
+    margin-bottom: 2%;
+    margin-top: 2%;
     flex-wrap: wrap;
 }
 
 .project-image {
-    width: 300px;    /* Example fixed width, you can adjust this value */
-    height: 200px;   /* Example fixed height, you can adjust this value */
-    object-fit: fill; /* Will ensure that the image is resized to fill the container, potentially distorting it */
-    padding: 0 15px;
+    flex: 1;
+    width: 20vw;
+    max-height: 20vw;
+    padding-left: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    object-fit: contain;
+    align-self: center;      /* Vertically center the image itself, if needed */
 }
 
 .project-description {
-    padding: 0 15px;
-}
-
-/* Mobile and tablet styles */
-@media (max-width: 768px) {
-    .project-description, .project-image {
-        padding: 15px 0;
-        width: 100%;
-    }
-    .project-image {
-        display: block;
-        margin: 10px auto; /* Centering the image horizontally on smaller screens */
-    }
+    flex: 2;
+    width: 20vw;
+    padding-left: 5%;
+    align-self: center;      /* Vertically center the description itself, if needed */
 }
