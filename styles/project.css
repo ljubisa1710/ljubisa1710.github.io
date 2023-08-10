@@ -9,8 +9,8 @@
 
 .project-image {
     flex: 1;
-    width: 20vw;
-    max-height: 20vw;
+    width: 500px;
+    height: 500px;
     padding-left: 2%;
     margin-left: 2%;
     margin-right: 2%;
@@ -20,7 +20,17 @@
 
 .project-description {
     flex: 2;
+    font-size: large;
     width: 20vw;
     padding-left: 5%;
     align-self: center;      /* Vertically center the description itself, if needed */
+}
+
+@media (max-width: 768px) {
+    .project-description {
+        padding-left: 2%;
+    }
+    .project-image, .project-description {
+        max-width: 100%;
+    }
 }

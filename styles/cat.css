@@ -9,8 +9,8 @@
 
 .cat-img {
     flex: 1;
-    width: 20vw;
-    height: 50vh;
+    width: 500px;
+    height: 500px;
     padding-left: 2%;
     margin-left: 2%;
     margin-right: 2%;
@@ -19,7 +19,7 @@
 }
 
 .cat-description {
-    font-size: x-large;
+    font-size: large;
     flex: 2;
     width: 20vw;
     padding-left: 5%;
