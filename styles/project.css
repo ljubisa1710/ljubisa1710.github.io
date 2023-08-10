@@ -6,8 +6,9 @@
 }
 
 .project-image {
-    height: auto;
-    object-fit: contain;
+    width: 300px;    /* Example fixed width, you can adjust this value */
+    height: 200px;   /* Example fixed height, you can adjust this value */
+    object-fit: fill; /* Will ensure that the image is resized to fill the container, potentially distorting it */
     padding: 0 15px;
 }
 
@@ -20,5 +21,9 @@
     .project-description, .project-image {
         padding: 15px 0;
         width: 100%;
+    }
+    .project-image {
+        display: block;
+        margin: 10px auto; /* Centering the image horizontally on smaller screens */
     }
 }
