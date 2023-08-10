@@ -1,36 +1,24 @@
 .project-content {
     display: flex;
-    justify-content: center;  /* Horizontally center the children */
-    align-items: center;      /* Vertically center the children */
-    margin-bottom: 2%;
-    margin-top: 2%;
+    justify-content: space-between;  
+    align-items: center;      
     flex-wrap: wrap;
 }
 
 .project-image {
-    flex: 1;
-    width: 20vw;
-    height: 20vh;
-    padding-left: 2%;
-    margin-left: 2%;
-    margin-right: 2%;
+    height: auto;
     object-fit: contain;
-    align-self: center;      /* Vertically center the image itself, if needed */
+    padding: 0 15px;
 }
 
 .project-description {
-    flex: 2;
-    width: 20vw;
-    height: 15vw;
-    padding-left: 5%;
-    align-self: center;      /* Vertically center the description itself, if needed */
+    padding: 0 15px;
 }
 
+/* Mobile and tablet styles */
 @media (max-width: 768px) {
-    .project-description {
-        padding-left: 2%;
-    }
-    .project-image, .project-description {
-        max-width: 100%;
+    .project-description, .project-image {
+        padding: 15px 0;
+        width: 100%;
     }
 }
