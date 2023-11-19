@@ -12,6 +12,9 @@ Pages:
         Overview of Ivan's technical projects.
         Dropdown with direct links to specific projects like PacMan, Ms. Pacman AI Simulator, Sudoku, and Rock Paper Scissor Simulator. Each link redirects to their respective GitHub repositories.
 
+    My Reports:
+        Several Reports created by myself, mostly created for school, some out of interest.
+
     My Resume:
         A section providing an overview of Ivan's professional journey.
         Option to download the complete resume.
