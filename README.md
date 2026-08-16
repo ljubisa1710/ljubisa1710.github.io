@@ -16,7 +16,9 @@ The current redesign uses a shared dependency-free design system and presents a 
 
 Current: Customer Operations Coordinator at Mercana Furniture and Decor, combining sales/customer operations support, Visual Basic process automation, and hands-on internal IT troubleshooting.
 
-Previous experience includes field IT support, independent rideshare/delivery, warehouse operations, and transportation safety/compliance.
+Previous experience includes MXS field IT support, Uber rideshare/delivery, Vitran warehouse operations, and transportation safety/compliance at Speedy Bob Logistics.
+
+The Resume page includes the complete five-role work history alongside technical skills, education, and selected software projects.
 
 ## Links
 
