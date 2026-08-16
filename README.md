@@ -1,4 +1,4 @@
-# Ivan Seslija — Portfolio
+# Ivan Seslija - Portfolio
 
 Personal portfolio site hosted with GitHub Pages.
 
@@ -6,11 +6,11 @@ The current redesign uses a shared dependency-free design system and presents a 
 
 ## Featured work
 
-- YouTube Random Finder — React, Vite, YouTube Data API
-- Breakout DDQN — Python, reinforcement learning
-- Maze Generators — Python, DFS, Eller’s algorithm
-- PacMan — JavaScript, p5.js, A* pathfinding
-- Peggle Master — Python, OpenCV, desktop automation
+- YouTube Random Finder - React, Vite, YouTube Data API
+- Breakout DDQN - Python, reinforcement learning
+- Maze Generators - Python, DFS, Eller's algorithm
+- PacMan - JavaScript, p5.js, A* pathfinding
+- Peggle Master - Python, OpenCV, desktop automation
 
 ## Links
 
