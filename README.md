@@ -1,16 +1,8 @@
 # Ivan Seslija — Portfolio
 
-Personal portfolio site for Ivan Seslija, hosted with GitHub Pages.
+Personal portfolio site hosted with GitHub Pages.
 
-## Current refresh
-
-The `agent/portfolio-overhaul` branch modernizes the site around a shared dependency-free design system and a clearer software-development narrative. The refreshed site includes:
-
-- a redesigned responsive homepage;
-- a curated Projects page featuring modern web, AI/ML, automation, and algorithm work;
-- a Research page for data-mining reports;
-- a web-native software resume aligned with the portfolio;
-- a personal Cats page retained as part of the site's character.
+The current redesign uses a shared dependency-free design system and presents a more focused software-development portfolio across modern web apps, AI/ML, automation, algorithms, research, and professional experience.
 
 ## Featured work
 
