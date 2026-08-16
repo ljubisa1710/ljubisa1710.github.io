@@ -1,165 +1,26 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ivan's Projects</title>
-
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    
-    <link rel="stylesheet" href="../styles/base.css">
-    <link rel="stylesheet" href="../styles/layout.css">
-    <link rel="stylesheet" href="../styles/navbar.css">
-    <link rel="stylesheet" href="../styles/project.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Selected software projects by Ivan Seslija.">
+  <title>Projects — Ivan Seslija</title>
+  <link rel="stylesheet" href="../styles/site.css">
 </head>
-
 <body>
-
-    <header class="text-center">
-        <h1>My Projects</h1>
-    </header>
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="btn btn-secondary" href="../index.html">Home Page</a>
-                </li>
-                <li class="nav-item">
-                    <div class="btn-group">
-                        <a href="../pages/projects.html" class="btn btn-secondary">My Projects</a> 
-                        <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" style="padding-left: 1.5rem; padding-right: 1.5rem;" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span class="sr-only">Toggle Dropdown</span>
-                        </button>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="https://github.com/ljubisa1710/PacMan" target="_blank">PacMan</a>
-                            <a class="dropdown-item" href="https://github.com/ljubisa1710/Breakout-DDQN" target="_blank">Breakout DDQN</a>
-                            <a class="dropdown-item" href="https://github.com/ljubisa1710/Sudoku" target="_blank">Sudoku</a>
-                            <a class="dropdown-item" href="https://github.com/ljubisa1710/RockPaperScissorSim" target="_blank">Rock Paper Scissor Simulator</a>
-                            <a class="dropdown-item" href="https://github.com/ljubisa1710/Conway-s-Game-of-Life" target="_blank">Conway's Game of Life</a>
-                            <a class="dropdown-item" href="https://github.com/ljubisa1710/PeggleMaster" target="_blank">Peggle Master</a>
-                        </div>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <div class="btn-group">
-                        <a href="../pages/reports.html" class="btn btn-secondary">My Reports</a> 
-                        <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" style="padding-left: 1.5rem; padding-right: 1.5rem;" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span class="sr-only">Toggle Dropdown</span>
-                        </button>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="https://github.com/ljubisa1710/Data-Mining-AI-Reports/tree/main/Decision%20Trees" target="_blank">Decision Trees</a>
-                            <a class="dropdown-item" href="https://github.com/ljubisa1710/Data-Mining-AI-Reports/tree/main/SVM%20and%20NN" target="_blank">SVM And NN</a>
-                            <a class="dropdown-item" href="https://github.com/ljubisa1710/Data-Mining-AI-Reports/tree/main/K-means%20and%20HAC" target="_blank">K-Means and HAC</a>
-                        </div>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="btn btn-secondary" href="../pages/resume_view.html">My Resume</a>
-                </li>
-                <li class="nav-item">
-                    <a class="btn btn-secondary" href="https://www.linkedin.com/in/ivan-seslija-a571531a3/" target="_blank">LinkedIn Profile</a>
-                </li>
-            </ul>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="btn btn-secondary" href="../pages/cat_pictures.html">My Cats</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-    <section class="project">
-        <div class="project-content">
-            <div class="project-description">
-                <h2>PacMan</h2>
-                <p>Dive into this modern rendition of the classic Pac-Man game, masterfully crafted using JavaScript and the p5.js library. Embedded within an HTML framework, it's playable on any web browser.</p>
-                <p>The game boasts a detailed 2D grid arena, with the iconic A* path-finding technique steering ghost movements. Delight in the familiar chomping sounds and chase mechanics that evoke nostalgia.</p>
-                <p>It's the quintessential Pac-Man experience, reimagined for the contemporary web, ensuring hours of fun and challenge.</p>
-                <a href="https://github.com/ljubisa1710/PacMan" target="_blank">See on GitHub</a>
-            </div>
-            <img src="../documents/pacman.jpg" alt="PacMan Game Preview" class="project-image">
-        </div>
-    </section>
-
-    <section class="project">
-        <div class="project-content">
-            <div class="project-description">
-                <h2>Breakout DDQN</h2>
-                <p>This study presents an in-depth analysis of a Double Deep Q-Network (DDQN) applied to the Atari game Breakout. The focus is on evaluating the DDQN's learning efficiency and decision-making process compared to a standard Deep Q-Network (DQN).</p>
-                <p>Through a series of experiments, we explore the DDQN's ability to master the game, emphasizing its enhanced learning strategy over conventional DQN approaches.</p>
-                <p>The findings demonstrate the DDQN's superior performance in terms of faster convergence and higher scores, offering valuable insights for advancing reinforcement learning techniques in complex environments.</p>                
-                <a href="https://github.com/ljubisa1710/Breakout-DDQN" target="_blank">See on GitHub</a>
-            </div>
-            <img src="../documents/ddqn.png" alt="Breakout-DDQN Preview" class="project-image">
-        </div>
-    </section>
-    
-
-    <section class="project">
-        <div class="project-content">
-            <div class="project-description">
-                <h2>Sudoku</h2>
-                <p>Immerse yourself in this captivating Sudoku game, meticulously crafted with JavaScript and the p5.js library. Engage with the traditional 9x9 Sudoku grid on an HTML canvas, with a diverse array of puzzles available at the click of a button.</p>
-                <p>Enhanced validation tools ensure you stay on track, and hints are available for those truly puzzling moments.</p>
-                <p>Whether challenging your intellect or seeking assistance with complex grids, this digital platform delivers an enthralling experience for puzzle enthusiasts.</p>            
-                <a href="https://github.com/ljubisa1710/Sudoku" target="_blank">See on GitHub</a>
-            </div>
-            <img src="../documents/sudoku.jpg" alt="Sudoku Preview" class="project-image">
-        </div>
-    </section>
-
-    <section class="project">
-        <div class="project-content">
-            <div class="project-description">
-                <h2>Rock Paper Scissor Simulator</h2>
-                <p>Step into a dynamic simulation of the classic Rock-Paper-Scissors game, innovatively implemented using p5.js. Entities traverse the canvas, engaging and interacting based on the timeless game rules.</p>
-                <p>They consume, reproduce, and evolve based on user-configurable parameters, providing a unique twist on the traditional gameplay.</p>
-                <p>Enhanced with vibrant imagery and interactivity, this project offers a refreshing digital take on an age-old game, blending entertainment with a hint of educational value.</p>            
-                <a href="https://github.com/ljubisa1710/RockPaperScissorSim" target="_blank">See on GitHub</a>
-            </div>
-            <img src="../documents/rockpaperscissors.jpg" alt="RockPaperScissorSim Preview" class="project-image">
-        </div>
-    </section>
-
-    <section class="project">
-        <div class="project-content">
-            <div class="project-description">
-                <h2>Conway's Game of Life</h2>
-                <p>Experience the fascinating world of cellular automata with this interactive Game of Life Simulator, crafted using the p5.js library. This digital representation brings to life Conway's famous Game of Life, where cells evolve on a grid based on simple rules.</p>
-                <p>Users can actively participate in the simulation, creating or erasing life by clicking or dragging across the canvas. The setup includes adjustable parameters like simulation speed, providing a hands-on experience in this virtual ecosystem.</p>
-                <p>Combining educational insights with engaging interactivity, this project is a wonderful exploration of algorithmic beauty and complexity arising from simple rules, inviting both enthusiasts and curious minds to delve into the world of cellular automata.</p>            
-                <a href="https://github.com/ljubisa1710/Conway-s-Game-of-Life" target="_blank">See on GitHub</a>
-            </div>
-            <img src="../documents/game_of_life_conway.PNG" alt="Game of Life Simulator Preview" class="project-image">
-        </div>
-    </section>
-
-    <section class="project">
-        <div class="project-content">
-            <div class="project-description">
-                <h2>Peggle Master Automation Tool</h2>
-                <p>Unlock the full potential of "Peggle Deluxe" with the Peggle Master Automation Tool. Utilizing the power of OpenCV, PyAutoGUI, and PyGetWindow, this Python script takes over the gameplay, simulating mouse clicks and movements to play the game on your behalf.</p>
-                <p>This tool not only automates gameplay but also showcases the fascinating intersection of computer vision and gaming. By analyzing game states through image processing and executing strategic moves, it offers a unique way to explore automated gaming strategies.</p>
-                <p>Perfect for gamers, developers, and enthusiasts interested in the practical applications of automation and AI in gaming, the Peggle Master Automation Tool invites you to experience "Peggle Deluxe" like never before.</p>
-                <a href="https://github.com/ljubisa1710/PeggleMaster" target="_blank">See on GitHub</a>
-            </div>
-            <img src="../documents/peggle_master_preview.png" alt="Peggle Master Automation Tool Preview" class="project-image">
-        </div>
-    </section>
-    
-    
-
-    <footer class="text-center py-4">
-        <p>Header/footer graphic courtesy of Vecteezy.com.</p>
-    </footer>
-
+<header class="site-header"><div class="shell nav"><a class="brand" href="../index.html">Ivan<span>.</span></a><nav class="nav-links" aria-label="Primary navigation"><a href="../index.html">Home</a><a href="./projects.html" aria-current="page">Projects</a><a href="./reports.html">Research</a><a href="./resume_view.html">Resume</a><a href="./cat_pictures.html">Cats</a></nav></div></header>
+<main>
+  <section class="shell page-hero"><p class="eyebrow">Portfolio</p><h1>Projects</h1><p>Interactive systems, machine learning experiments, automation tools, and algorithmic playgrounds. I like projects where the underlying logic becomes something you can see, test, and interact with.</p></section>
+  <section class="section shell"><div class="grid two">
+    <article class="card"><img class="project-image" src="../documents/ddqn.png" alt="Breakout DDQN preview"><h2>Breakout DDQN</h2><p>A reinforcement-learning study comparing Double Deep Q-Network behavior on Atari Breakout, with emphasis on training efficiency and decision quality.</p><div class="tags"><span class="tag">Python</span><span class="tag">DDQN</span><span class="tag">Reinforcement Learning</span></div><a class="link" href="https://github.com/ljubisa1710/Breakout-DDQN" target="_blank" rel="noreferrer">View on GitHub →</a></article>
+    <article class="card"><img class="project-image" src="../documents/pacman.jpg" alt="PacMan preview"><h2>PacMan</h2><p>A browser-based Pac-Man recreation with grid navigation, classic chase behavior, and A* pathfinding controlling ghost movement.</p><div class="tags"><span class="tag">JavaScript</span><span class="tag">p5.js</span><span class="tag">A*</span></div><a class="link" href="https://github.com/ljubisa1710/PacMan" target="_blank" rel="noreferrer">View on GitHub →</a></article>
+    <article class="card"><img class="project-image" src="../documents/peggle_master_preview.png" alt="Peggle Master preview"><h2>Peggle Master</h2><p>A desktop automation experiment using computer vision to inspect game state and control Peggle gameplay programmatically.</p><div class="tags"><span class="tag">Python</span><span class="tag">OpenCV</span><span class="tag">PyAutoGUI</span></div><a class="link" href="https://github.com/ljubisa1710/PeggleMaster" target="_blank" rel="noreferrer">View on GitHub →</a></article>
+    <article class="card"><img class="project-image" src="../documents/sudoku.jpg" alt="Sudoku preview"><h2>Sudoku</h2><p>An interactive 9×9 Sudoku implementation with puzzle selection, validation, and hint tooling, built for the browser with p5.js.</p><div class="tags"><span class="tag">JavaScript</span><span class="tag">p5.js</span><span class="tag">UI Logic</span></div><a class="link" href="https://github.com/ljubisa1710/Sudoku" target="_blank" rel="noreferrer">View on GitHub →</a></article>
+    <article class="card"><img class="project-image" src="../documents/game_of_life_conway.PNG" alt="Game of Life preview"><h2>Conway’s Game of Life</h2><p>An interactive cellular-automata sandbox where users can draw populations, erase cells, and adjust simulation speed to explore emergent behavior.</p><div class="tags"><span class="tag">JavaScript</span><span class="tag">p5.js</span><span class="tag">Simulation</span></div><a class="link" href="https://github.com/ljubisa1710/Conway-s-Game-of-Life" target="_blank" rel="noreferrer">View on GitHub →</a></article>
+    <article class="card"><img class="project-image" src="../documents/rockpaperscissors.jpg" alt="Rock Paper Scissors simulation preview"><h2>Rock Paper Scissors Simulation</h2><p>A visual ecosystem inspired by Rock-Paper-Scissors where moving entities interact, consume, reproduce, and change the balance of the simulation.</p><div class="tags"><span class="tag">JavaScript</span><span class="tag">p5.js</span><span class="tag">Simulation</span></div><a class="link" href="https://github.com/ljubisa1710/RockPaperScissorSim" target="_blank" rel="noreferrer">View on GitHub →</a></article>
+  </div></section>
+  <section class="section shell"><div class="card"><p class="eyebrow">More experiments</p><h2>Still exploring.</h2><p class="lede">My GitHub also includes newer algorithm and browser experiments, including maze generation work. I keep the portfolio focused, but the repository list shows the broader trail of things I’ve been building.</p><div class="actions"><a class="button" href="https://github.com/ljubisa1710" target="_blank" rel="noreferrer">Browse all repositories</a></div></div></section>
+</main>
+<footer class="site-footer"><div class="shell footer-inner"><span>© 2026 Ivan Seslija</span><span><a href="mailto:iseslija@hotmail.com">Email</a> · <a href="https://github.com/ljubisa1710" target="_blank" rel="noreferrer">GitHub</a></span></div></footer>
 </body>
 </html>
