@@ -1,8 +1,8 @@
 # Ivan Seslija - Portfolio
 
-Personal portfolio site hosted with GitHub Pages.
+This is my personal portfolio site, hosted with GitHub Pages.
 
-The current redesign uses a shared dependency-free design system and presents a focused software-development portfolio across modern web apps, AI/ML, automation, algorithms, research, technical support, and professional operations experience.
+I use it to showcase my work across modern web applications, AI/ML, automation, algorithms, research, technical support, and practical software engineering. The current redesign uses a shared dependency-free design system so the site stays fast, responsive, and easy to maintain.
 
 ## Featured work
 
@@ -14,11 +14,11 @@ The current redesign uses a shared dependency-free design system and presents a 
 
 ## Professional background
 
-Current: Customer Operations Coordinator at Mercana Furniture and Decor, combining sales/customer operations support, Visual Basic process automation, and hands-on internal IT troubleshooting.
+I currently work as a Customer Operations Coordinator at Mercana Furniture and Decor, where I combine sales and customer-operations support with Visual Basic/VBA process automation and hands-on internal IT troubleshooting.
 
-Previous experience includes MXS field IT support, Uber rideshare/delivery, Vitran warehouse operations, and transportation safety/compliance at Speedy Bob Logistics.
+Before that, I worked in field IT support with MXS On Site IT Services, drove for Uber, worked in warehouse operations at Vitran Express, and supported transportation safety and compliance at Speedy Bob Logistics.
 
-The Resume page includes the complete five-role work history alongside technical skills, education, and selected software projects.
+My Resume page focuses on the parts of that background most relevant to software development while still showing the broader experience that shaped how I approach technical problems.
 
 ## Links
 
