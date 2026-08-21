@@ -1,39 +1,27 @@
-Ivan Seslija - Software Developer Website
-Overview:
+# Ivan Seslija - Portfolio
 
-Ivan Seslija's personal website is a digital space that highlights his professional journey, projects, and other interests. Built using HTML and the Bootstrap framework, the site presents a blend of Ivan's technical prowess and personal pursuits.
-Pages:
+This is my personal portfolio site, hosted with GitHub Pages.
 
-    Home Page:
-        Introduction: A brief about Ivan Seslija and his designation as a software developer.
-        Profile Picture: A professional image of Ivan.
+I use it to showcase my work across modern web applications, AI/ML, automation, algorithms, research, technical support, and practical software engineering. The current redesign uses a shared dependency-free design system so the site stays fast, responsive, and easy to maintain.
 
-    My Projects:
-        Overview of Ivan's technical projects.
-        Dropdown with direct links to specific projects like PacMan, Ms. Pacman AI Simulator, Sudoku, and Rock Paper Scissor Simulator. Each link redirects to their respective GitHub repositories.
+## Featured work
 
-    My Reports:
-        Several Reports created by myself, mostly created for school, some out of interest.
+- YouTube Random Finder - React, Vite, YouTube Data API
+- Breakout DDQN - Python, reinforcement learning
+- Maze Generators - Python, DFS, Eller's algorithm
+- PacMan - JavaScript, p5.js, A* pathfinding
+- Peggle Master - Python, OpenCV, desktop automation
 
-    My Resume:
-        A section providing an overview of Ivan's professional journey.
-        Option to download the complete resume.
+## Professional background
 
-    LinkedIn Profile:
-        A direct link to Ivan's professional LinkedIn profile.
+I currently work as a Customer Operations Coordinator at Mercana Furniture and Decor, where I combine sales and customer-operations support with Visual Basic/VBA process automation and hands-on internal IT troubleshooting.
 
-    About Me:
-        Detailed insights into Ivan's professional background, including his diverse roles in logistics, IT, and warehousing.
-        Information about his ongoing Bachelor's Degree in Computer Science at the University of Victoria.
-        Skills highlight, showcasing proficiency in programming languages like Javascript, Python, Java, and C/C++.
-        Personal interests including rock climbing, artificial intelligence, and an intriguing detail about his experience in driving a semi-truck as a learner.
+Before that, I worked in field IT support with MXS On Site IT Services, drove for Uber, worked in warehouse operations at Vitran Express, and supported transportation safety and compliance at Speedy Bob Logistics.
 
-    My Cats:
-        A lighthearted section dedicated to showcasing pictures or stories about Ivan's cats.
+My Resume page focuses on the parts of that background most relevant to software development while still showing the broader experience that shaped how I approach technical problems.
 
-    Contact:
-        Information on how to get in touch with Ivan for collaborations or inquiries, including a direct email link.
+## Links
 
-Footer:
-
-    Credits for graphics used in the website's header and footer.
+- Portfolio: https://ljubisa1710.github.io
+- GitHub: https://github.com/ljubisa1710
+- LinkedIn: https://www.linkedin.com/in/ivan-seslija-a571531a3/

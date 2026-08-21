@@ -1,122 +1,105 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ivan Seslija - Software Developer</title>
-
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-    <link rel="stylesheet" href="./styles/base.css">
-    <link rel="stylesheet" href="./styles/layout.css">
-    <link rel="stylesheet" href="./styles/navbar.css">
-    <link rel="stylesheet" href="./styles/about.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ivan Seslija — software developer and technical operations professional focused on automation, practical AI, and interactive systems.">
+  <title>Ivan Seslija — Software Developer</title>
+  <link rel="stylesheet" href="./styles/site.css">
 </head>
-
 <body>
+  <header class="site-header">
+    <div class="shell nav">
+      <a class="brand" href="./index.html">Ivan<span>.</span></a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="./index.html" aria-current="page">Home</a>
+        <a href="./pages/projects.html">Projects</a>
+        <a href="./pages/reports.html">Research</a>
+        <a href="./pages/resume_view.html">Resume</a>
+        <a href="./pages/cat_pictures.html">Cats</a>
+      </nav>
+    </div>
+  </header>
 
-    <header class="text-center">
-        <h1>Ivan Seslija</h1>
-        <p>Software Developer</p>
-    </header>
-    
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="btn btn-secondary" href="../index.html">Home Page</a>
-                </li>
-                <li class="nav-item">
-                    <div class="btn-group">
-                        <a href="../pages/projects.html" class="btn btn-secondary">My Projects</a> 
-                        <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" style="padding-left: 1.5rem; padding-right: 1.5rem;" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span class="sr-only">Toggle Dropdown</span>
-                        </button>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="https://github.com/ljubisa1710/PacMan" target="_blank">PacMan</a>
-                            <a class="dropdown-item" href="https://github.com/ljubisa1710/Breakout-DDQN" target="_blank">Breakout DDQN</a>
-                            <a class="dropdown-item" href="https://github.com/ljubisa1710/Sudoku" target="_blank">Sudoku</a>
-                            <a class="dropdown-item" href="https://github.com/ljubisa1710/RockPaperScissorSim" target="_blank">Rock Paper Scissor Simulator</a>
-                            <a class="dropdown-item" href="https://github.com/ljubisa1710/Conway-s-Game-of-Life" target="_blank">Conway's Game of Life</a>
-                            <a class="dropdown-item" href="https://github.com/ljubisa1710/PeggleMaster" target="_blank">Peggle Master</a>
-                        </div>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <div class="btn-group">
-                        <a href="../pages/reports.html" class="btn btn-secondary">My Reports</a> 
-                        <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" style="padding-left: 1.5rem; padding-right: 1.5rem;" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span class="sr-only">Toggle Dropdown</span>
-                        </button>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="https://github.com/ljubisa1710/Data-Mining-AI-Reports/tree/main/Decision%20Trees" target="_blank">Decision Trees</a>
-                            <a class="dropdown-item" href="https://github.com/ljubisa1710/Data-Mining-AI-Reports/tree/main/SVM%20and%20NN" target="_blank">SVM And NN</a>
-                            <a class="dropdown-item" href="https://github.com/ljubisa1710/Data-Mining-AI-Reports/tree/main/K-means%20and%20HAC" target="_blank">K-Means and HAC</a>
-                        </div>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="btn btn-secondary" href="../pages/resume_view.html">My Resume</a>
-                </li>
-                <li class="nav-item">
-                    <a class="btn btn-secondary" href="https://www.linkedin.com/in/ivan-seslija-a571531a3/" target="_blank">LinkedIn Profile</a>
-                </li>
-            </ul>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="btn btn-secondary" href="../pages/cat_pictures.html">My Cats</a>
-                </li>
-            </ul>
+  <main>
+    <section class="shell hero">
+      <div>
+        <p class="eyebrow">Software developer · British Columbia</p>
+        <h1>I build software that learns, automates, and solves.</h1>
+        <p class="lede">I’m Ivan Seslija, a Computer Science graduate and Customer Operations Coordinator at Mercana Furniture and Decor. My work spans software projects, process automation, hands-on IT support, AI/ML experimentation, and practical operations.</p>
+        <div class="actions">
+          <a class="button" href="./pages/projects.html">Explore my work</a>
+          <a class="button secondary" href="./pages/resume_view.html">View resume</a>
+          <a class="button secondary" href="https://github.com/ljubisa1710" target="_blank" rel="noreferrer">GitHub</a>
         </div>
-    </nav>
-    
-    <main class="container mt-5">
-        <div class="row justify-content-center">
-            <div class="col-md-8 text-center">
-                <div class="about-image mb-3">
-                    <img class="rounded-circle" src="./documents/me.jpg" alt="Ivan's Picture">
-                </div>
-                <h2>About Me</h2>  
-                <p>
-                    Detail-oriented and versatile professional with a proven track record spanning several years in diverse fields. My commitment to achieving high standards of quality is deeply ingrained in every project I undertake. I have successfully adapted to demanding roles in logistics, IT, and warehousing, showcasing my resilience and adaptability.
-                </p>
+      </div>
+      <div class="portrait-wrap">
+        <img class="portrait" src="./documents/me.jpg" alt="Portrait of Ivan Seslija">
+      </div>
+    </section>
 
-                <p>
-                    I am an Alumni of the University of Victoria, graduated with a bachelor degree in computer science. My technical prowess is highlighted by my advanced proficiency in programming languages, including Javascript, Python, Java, and C/C++.
-                </p>
+    <section class="section shell" id="work">
+      <div class="section-head">
+        <div><p class="eyebrow">Selected work</p><h2>Projects with a point of view.</h2></div>
+        <p>My projects sit where algorithms meet visible behavior: API-driven web apps, reinforcement learning, pathfinding, automation, computer vision, games, and simulation.</p>
+      </div>
+      <div class="grid three">
+        <article class="card">
+          <h3>YouTube Random Finder</h3>
+          <p>A React + Vite app for discovering unexpected YouTube videos from selected channels or trending pools while avoiding repeat picks.</p>
+          <div class="tags"><span class="tag">React</span><span class="tag">Vite</span><span class="tag">YouTube API</span></div>
+          <a class="link" href="https://github.com/ljubisa1710/youtube-random-finder" target="_blank" rel="noreferrer">View repository →</a>
+        </article>
+        <article class="card">
+          <img class="project-image" src="./documents/ddqn.png" alt="Breakout reinforcement learning project preview">
+          <h3>Breakout DDQN</h3>
+          <p>An exploration of Double Deep Q-Network learning behavior on Atari Breakout, with a focus on convergence and decision quality.</p>
+          <div class="tags"><span class="tag">Python</span><span class="tag">Reinforcement Learning</span><span class="tag">DDQN</span></div>
+          <a class="link" href="https://github.com/ljubisa1710/Breakout-DDQN" target="_blank" rel="noreferrer">View repository →</a>
+        </article>
+        <article class="card">
+          <img class="project-image" src="./documents/pacman.jpg" alt="PacMan project preview">
+          <h3>PacMan</h3>
+          <p>A browser-based Pac-Man interpretation featuring a grid world, interactive gameplay, and A* pathfinding for ghost movement.</p>
+          <div class="tags"><span class="tag">JavaScript</span><span class="tag">p5.js</span><span class="tag">A*</span></div>
+          <a class="link" href="https://github.com/ljubisa1710/PacMan" target="_blank" rel="noreferrer">View repository →</a>
+        </article>
+      </div>
+    </section>
 
-                <p>
-                    Outside the professional realm, I am an avid rock climber and possess a deep-seated passion for artificial intelligence and its transformative power across industries. This passion drives my academic endeavors, as I'm constantly exploring how AI can revolutionize the world we live in. In addition to my technical and outdoor pursuits, I've also garnered experience in driving a semi-truck as a learner, showcasing my ability to step outside my comfort zone and learn new skills.
-                </p>
+    <section class="section shell">
+      <div class="feature">
+        <article class="card">
+          <p class="eyebrow">Current work</p>
+          <h2>Automation meets operations.</h2>
+          <p>At Mercana, I support customer operations, sales, and internal IT. I review and release orders, troubleshoot payment and fulfillment issues, support hardware and software, and build Visual Basic automations that remove repetitive operational work.</p>
+          <p>That mix keeps me close to real users and real business constraints: the kind of environment where useful software has an immediate impact.</p>
+        </article>
+        <article class="card">
+          <p class="eyebrow">Toolkit</p>
+          <h2>Languages & strengths</h2>
+          <div class="grid two">
+            <div><div class="stat">Python</div><p>ML, automation, computer vision, experimentation.</p></div>
+            <div><div class="stat">JavaScript</div><p>React apps, APIs, browser projects, simulations.</p></div>
+            <div><div class="stat">Visual Basic</div><p>Operational automation and reporting workflows.</p></div>
+            <div><div class="stat">IT Systems</div><p>Hardware, printers, networking, deployment, troubleshooting.</p></div>
+          </div>
+        </article>
+      </div>
+    </section>
 
-                <p>
-                    As I continue my journey in the tech industry, I remain eager to blend my diverse experiences, ensuring innovation and excellence at every turn.
-                </p>
-            </div>
-        </div>
-    
-        <div class="row">
-            <div class="col-12">
-                <div class="contact-section">
-                    <h2>Contact</h2>
-                    <p>For inquiries or collaborations, please email: <a href="mailto:iseslija@hotmail.com">iseslija@hotmail.com</a></p>
-                </div>
-            </div>
-        </div>
-        
-    </main>    
-    
-    <footer class="text-center py-4">
-        <p>Header/footer graphic courtesy of Vecteezy.com.</p>
-    </footer>
-    
-    </body>
-    
+    <section class="section shell">
+      <div class="card">
+        <p class="eyebrow">Background</p>
+        <h2>Technical work grounded in real operations.</h2>
+        <p class="lede">Before Mercana, I worked in field IT support, independent rideshare and delivery, warehousing, and transportation safety. That range shaped how I approach engineering: diagnose the actual problem, communicate clearly, and build solutions that hold up outside a demo.</p>
+        <div class="actions"><a class="button" href="./pages/resume_view.html">Full experience</a><a class="button secondary" href="mailto:iseslija@hotmail.com">Get in touch</a><a class="button secondary" href="https://www.linkedin.com/in/ivan-seslija-a571531a3/" target="_blank" rel="noreferrer">LinkedIn</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner"><span>© 2026 Ivan Seslija</span><span><a href="mailto:iseslija@hotmail.com">Email</a> · <a href="https://github.com/ljubisa1710" target="_blank" rel="noreferrer">GitHub</a> · <a href="https://www.linkedin.com/in/ivan-seslija-a571531a3/" target="_blank" rel="noreferrer">LinkedIn</a></span></div>
+  </footer>
+</body>
 </html>
